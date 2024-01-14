@@ -349,6 +349,11 @@
     (stroke (width 0) (type solid))
     (uuid 35ce0052-1845-4671-a8c2-f341e8414489)
   )
+  (bus (pts (xy 54.61 24.13) (xy 50.8 24.13))
+    (stroke (width 0) (type default))
+    (uuid 3bdb4a19-3f68-43f8-bb34-cc11958f85fb)
+  )
+
   (wire (pts (xy 39.37 27.94) (xy 50.8 27.94))
     (stroke (width 0) (type default))
     (uuid 4da4c4ca-ad72-4dc5-b31e-3dc6bc001042)
@@ -436,6 +441,10 @@
   (wire (pts (xy 66.04 40.64) (xy 87.63 40.64))
     (stroke (width 0) (type solid))
     (uuid ebeb66c2-4d0a-4831-96e3-9aeee4675b3a)
+  )
+  (bus (pts (xy 50.8 24.13) (xy 50.8 38.1))
+    (stroke (width 0) (type default))
+    (uuid edcbf5f3-c44b-4585-ae9c-8583bca35973)
   )
 
   (label "SD_PWR_ON" (at 41.91 40.64 0) (fields_autoplaced)
@@ -552,10 +561,18 @@
     (uuid ef86cad0-65a7-455d-b788-3c29e9f78148)
   )
 
+  (netclass_flag "" (length 2.54) (shape round) (at 54.61 24.13 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0b9b2b36-7be5-4f9f-8af9-d44b54f0006e)
+    (property "Netclass" "SD 50R Single" (at 55.499 21.59 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 83.82 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226e5a65-f51d-4b36-a373-23de10454ad1)
-    (property "Reference" "R12" (at 82.2706 58.2676 90)
+    (property "Reference" "R10" (at 82.2706 58.2676 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "nf" (at 86.2838 58.2168 90)
@@ -590,7 +607,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -662,7 +679,7 @@
   (symbol (lib_id "power:GND") (at 133.35 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78b3f32f-7481-4cf3-a3be-8b1acdd04b42)
-    (property "Reference" "#PWR07" (at 133.35 62.23 0)
+    (property "Reference" "#PWR023" (at 133.35 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.477 60.2742 0)
@@ -678,7 +695,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -692,7 +709,7 @@
   (symbol (lib_id "power:GND") (at 66.04 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid acc32c7e-e0fa-43fa-97ef-2cd731ad94a8)
-    (property "Reference" "#PWR05" (at 66.04 48.26 0)
+    (property "Reference" "#PWR021" (at 66.04 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.167 46.3042 0)
@@ -708,7 +725,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -774,7 +791,7 @@
   (symbol (lib_id "Device:R") (at 83.82 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1bb09a3-2f7c-4d98-9c47-3d557954b393)
-    (property "Reference" "R11" (at 82.55 50.8 90)
+    (property "Reference" "R9" (at 82.55 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "nf" (at 86.36 50.8 90)
@@ -809,7 +826,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -823,7 +840,7 @@
   (symbol (lib_id "Device:R") (at 128.905 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f02ffa62-bb4b-43ba-ad3f-da2d9ce36054)
-    (property "Reference" "R13" (at 130.683 63.6016 0)
+    (property "Reference" "R11" (at 130.683 63.6016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K 1%" (at 130.683 65.913 0)
@@ -855,7 +872,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -869,7 +886,7 @@
   (symbol (lib_id "Device:C") (at 66.04 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa5c2d16-873b-4bb6-86c6-350d5bee396c)
-    (property "Reference" "C2" (at 68.961 33.1216 0)
+    (property "Reference" "C4" (at 68.961 33.1216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 68.961 35.433 0)
@@ -904,7 +921,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -918,7 +935,7 @@
   (symbol (lib_id "power:GND") (at 90.17 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc3c46c2-9a27-4c93-9053-14e7e38a95db)
-    (property "Reference" "#PWR06" (at 90.17 72.39 0)
+    (property "Reference" "#PWR022" (at 90.17 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.297 70.4342 0)
@@ -934,7 +951,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "CM4IOv5"

@@ -1014,6 +1014,11 @@
     (stroke (width 0) (type solid))
     (uuid 0dbac6bd-ca17-43ee-be60-4366e04f997b)
   )
+  (bus (pts (xy 119.38 50.8) (xy 127 50.8))
+    (stroke (width 0) (type default))
+    (uuid 0ebfa7c1-e342-4292-ba0e-a7befa05d81d)
+  )
+
   (wire (pts (xy 40.64 137.16) (xy 43.18 137.16))
     (stroke (width 0) (type solid))
     (uuid 0efc1803-bcac-4596-902a-07e4cae81f79)
@@ -1038,6 +1043,11 @@
     (stroke (width 0) (type solid))
     (uuid 1d6deb5c-ef7c-4cb5-aa47-9c4acc22fde1)
   )
+  (bus (pts (xy 168.91 72.39) (xy 168.91 93.98))
+    (stroke (width 0) (type default))
+    (uuid 2370775d-22f0-426f-a13f-97c7b50ba1af)
+  )
+
   (wire (pts (xy 104.14 160.02) (xy 106.68 160.02))
     (stroke (width 0) (type solid))
     (uuid 252793e0-038b-41a5-b37e-ffcd78953304)
@@ -1134,10 +1144,20 @@
     (stroke (width 0) (type solid))
     (uuid 68287628-8c2f-4835-9ac2-a5a958c233d1)
   )
+  (bus (pts (xy 119.38 48.26) (xy 119.38 50.8))
+    (stroke (width 0) (type default))
+    (uuid 692e7128-73e6-4602-8bf6-4a79c070240f)
+  )
+
   (wire (pts (xy 40.64 160.02) (xy 43.18 160.02))
     (stroke (width 0) (type solid))
     (uuid 6a9e4d2d-7746-49cf-a847-9f081a797636)
   )
+  (bus (pts (xy 158.75 72.39) (xy 168.91 72.39))
+    (stroke (width 0) (type default))
+    (uuid 6c04cbda-cd4b-4834-8bb5-96064efecc06)
+  )
+
   (wire (pts (xy 40.64 121.92) (xy 43.18 121.92))
     (stroke (width 0) (type solid))
     (uuid 6ec04a59-a012-4824-9b0a-204cd8eea031)
@@ -1485,10 +1505,25 @@
     (uuid 1bd2773f-c96a-4a3c-a801-d80696a73a21)
   )
 
+  (netclass_flag "" (length 2.54) (shape round) (at 158.75 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 649d7e2b-5570-4926-b5d4-b5937226c25b)
+    (property "Netclass" "HDMI 100R Diff" (at 159.639 69.85 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+  (netclass_flag "" (length 2.54) (shape round) (at 127 50.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fb4122c1-38bc-46ef-8774-109586bdfcff)
+    (property "Netclass" "USB 90R Diff" (at 127.889 48.26 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 40.64 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d0caf91-4ece-48ed-a178-43a8b49f3526)
-    (property "Reference" "#PWR0111" (at 40.64 181.61 0)
+    (property "Reference" "#PWR015" (at 40.64 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 180.34 0)
@@ -1504,7 +1539,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/caa71f4c-454d-4ac9-b287-456eafb34991"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1513,7 +1548,7 @@
   (symbol (lib_id "power:GND") (at 106.68 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81f0d702-912e-410d-83f3-c9f3bd3f7f28)
-    (property "Reference" "#PWR0112" (at 106.68 181.61 0)
+    (property "Reference" "#PWR016" (at 106.68 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 180.34 0)
@@ -1529,7 +1564,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/caa71f4c-454d-4ac9-b287-456eafb34991"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )

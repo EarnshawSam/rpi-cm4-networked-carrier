@@ -2677,7 +2677,7 @@
   (symbol (lib_id "power:GND") (at 152.4 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 134d943f-f3b7-4a0e-8d1f-2480b898762b)
-    (property "Reference" "#PWR0103" (at 152.4 146.05 0)
+    (property "Reference" "#PWR07" (at 152.4 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.527 144.0942 0)
@@ -2693,7 +2693,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2702,7 +2702,7 @@
   (symbol (lib_id "power:GND") (at 233.68 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13ffbc3c-c167-4db3-adfc-fa2bdf2c4151)
-    (property "Reference" "#PWR0109" (at 233.68 125.73 0)
+    (property "Reference" "#PWR012" (at 233.68 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.807 123.7742 0)
@@ -2718,7 +2718,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2727,7 +2727,7 @@
   (symbol (lib_id "USB4105-GF-A:USB4105-GF-A") (at 196.85 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1591dea8-b19a-4d2f-8baa-e66d31282c58)
-    (property "Reference" "J2" (at 198.0224 71.1864 0)
+    (property "Reference" "J3" (at 198.0224 71.1864 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB4105-GF-A" (at 198.0224 73.7264 0)
@@ -2785,7 +2785,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2829,7 +2829,7 @@
   (symbol (lib_id "power:GND") (at 40.64 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 230650eb-8852-4c76-b63c-12ec79910b81)
-    (property "Reference" "#PWR0101" (at 40.64 181.61 0)
+    (property "Reference" "#PWR05" (at 40.64 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 180.34 0)
@@ -2845,7 +2845,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2854,7 +2854,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 252.73 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29b83231-3914-45e6-9ff5-265c2d7895d5)
-    (property "Reference" "J3" (at 251.46 124.46 0)
+    (property "Reference" "J4" (at 251.46 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 240.03 127 0)
@@ -2887,7 +2887,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2922,7 +2922,7 @@
   (symbol (lib_id "power:GND") (at 106.68 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31551326-27c6-4bba-a0c0-abe772948a8c)
-    (property "Reference" "#PWR0102" (at 106.68 181.61 0)
+    (property "Reference" "#PWR06" (at 106.68 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 180.34 0)
@@ -2938,7 +2938,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3183,7 +3183,7 @@
   (symbol (lib_id "power:GND") (at 166.37 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48a5923e-2cf9-4b7b-b160-cc99f74e0c07)
-    (property "Reference" "#PWR0104" (at 166.37 102.87 0)
+    (property "Reference" "#PWR09" (at 166.37 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 101.6 0)
@@ -3199,7 +3199,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3208,7 +3208,7 @@
   (symbol (lib_id "power:GND") (at 219.71 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dd8eb14-87a0-47a4-a592-50d45f3efdd0)
-    (property "Reference" "#PWR0106" (at 219.71 105.41 0)
+    (property "Reference" "#PWR010" (at 219.71 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 104.14 0)
@@ -3224,7 +3224,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3233,7 +3233,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 173.99 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7daa98ed-9d74-497f-a5b7-7cb922441ba1)
-    (property "Reference" "J1" (at 172.72 113.03 0)
+    (property "Reference" "J2" (at 172.72 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 171.45 115.57 0)
@@ -3258,7 +3258,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3267,7 +3267,7 @@
   (symbol (lib_id "power:GND") (at 227.33 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8621ede0-801d-408a-ace1-9c9b631053c3)
-    (property "Reference" "#PWR0107" (at 227.33 105.41 0)
+    (property "Reference" "#PWR011" (at 227.33 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 104.14 0)
@@ -3283,7 +3283,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3292,7 +3292,7 @@
   (symbol (lib_id "CM4IO:74LVC1G07_copy") (at 238.76 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 862be61d-8399-4948-a564-2f01d5cb5b7a)
-    (property "Reference" "U1" (at 240.284 43.18 0)
+    (property "Reference" "U2" (at 240.284 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC1G07SE-7" (at 240.284 48.26 0)
@@ -3323,7 +3323,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3358,7 +3358,7 @@
   (symbol (lib_id "power:GND") (at 240.03 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a517cd89-6381-470a-b34a-d194901e06fb)
-    (property "Reference" "#PWR0108" (at 240.03 105.41 0)
+    (property "Reference" "#PWR014" (at 240.03 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 104.14 0)
@@ -3374,7 +3374,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3421,7 +3421,7 @@
   (symbol (lib_id "power:GND") (at 238.76 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2bdacc5-5dd7-4aea-ae1d-b1028ef0bfb1)
-    (property "Reference" "#PWR0110" (at 238.76 59.69 0)
+    (property "Reference" "#PWR013" (at 238.76 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.887 57.7342 0)
@@ -3437,7 +3437,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3516,7 +3516,7 @@
   (symbol (lib_id "power:GND") (at 163.83 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e25b8971-e0e8-46aa-8cce-b4039a1b245b)
-    (property "Reference" "#PWR0105" (at 163.83 182.88 0)
+    (property "Reference" "#PWR08" (at 163.83 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.957 180.9242 0)
@@ -3532,7 +3532,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )

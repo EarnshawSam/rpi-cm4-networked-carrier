@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP STUSB4500QTR
+D USB Interface IC CONDITIONING & INTERFACES
+K
+F https://www.st.com/resource/en/datasheet/stusb4500.pdf
+$ENDCMP
+#
+$CMP CX3225CA24000D0HSSCC
+D Crystals AEC-Q200 24000kHz 8pF 3.2x2.5mm
+K
+F https://componentsearchengine.com/Datasheets/1/CX3225CA24000D0HSSCC.pdf
+$ENDCMP
+#
+$CMP 0402YA8R0DAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 8pF C0G 0402 .5pF Tol
+K
+F 
+$ENDCMP
+#
+#End Doc Library
