@@ -24,4 +24,28 @@ K
 F 
 $ENDCMP
 #
+$CMP 515-1114F
+D LED Light Pipes LIGHT PIPE BI-LEVEL
+K
+F https://componentsearchengine.com/Datasheets/1/515-1114F.pdf
+$ENDCMP
+#
+$CMP KTD2052AEVAA-TR
+D LED Lighting Drivers 12-Channel RGB LED Driver with I2C Control-0x74 (Preferred); NO AutoBreathe
+K
+F https://www.mouser.co.za/datasheet/2/936/KTD2052_04b-2887351.pdf
+$ENDCMP
+#
+$CMP APF3236SEEZGKQBKC
+D Standard LEDs - SMD 3.2x3.6MM RGB SM RGB SMD
+K
+F http://www.kingbrightusa.com/images/catalog/SPEC/APF3236SEEZGKQBKC.pdf
+$ENDCMP
+#
+$CMP MCS04020C4701FE000
+D Vishay Resistor Chip 0402
+K
+F http://www.vishay.com/docs/28705/mcx0x0xpro.pdf
+$ENDCMP
+#
 #End Doc Library

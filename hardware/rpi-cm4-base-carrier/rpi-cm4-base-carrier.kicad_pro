@@ -621,6 +621,10 @@
     [
       "608ebeb8-e53f-414f-96bd-b82978f8d213",
       "USB2-HUB"
+    ],
+    [
+      "91188afb-aa0e-4641-b6d1-5b7addeddc93",
+      "LEDs"
     ]
   ],
   "text_variables": {}
