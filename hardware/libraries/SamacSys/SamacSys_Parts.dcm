@@ -48,4 +48,16 @@ K
 F http://www.vishay.com/docs/28705/mcx0x0xpro.pdf
 $ENDCMP
 #
+$CMP JT4-1202HL
+D 1 Port RJ45Through Hole 10/100/1000 Base-TX, AutoMDIX, Power over Ethernet (PoE
+K
+F https://www.mouser.fr/datasheet/2/336/JT4_1202HL-2303713.pdf
+$ENDCMP
+#
+$CMP XM7B-0442
+D USB Connectors RA Term w/Kink Term Model B
+K
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-xm7.pdf
+$ENDCMP
+#
 #End Doc Library
