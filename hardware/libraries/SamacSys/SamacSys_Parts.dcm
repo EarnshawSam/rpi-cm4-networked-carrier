@@ -60,4 +60,10 @@ K
 F https://omronfs.omron.com/en_US/ecb/products/pdf/en-xm7.pdf
 $ENDCMP
 #
+$CMP USBULC6-2M6
+D STMicroelectronics USBULC6-2M6, Dual Uni-Directional ESD Protection Array, 6-Pin uQFN
+K
+F https://www.st.com/resource/en/datasheet/usbulc6-2m6.pdf
+$ENDCMP
+#
 #End Doc Library
