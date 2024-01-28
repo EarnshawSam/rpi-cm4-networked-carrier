@@ -66,4 +66,40 @@ K
 F https://www.st.com/resource/en/datasheet/usbulc6-2m6.pdf
 $ENDCMP
 #
+$CMP CR0402-JW-471GLF
+D Thick Film Resistors - SMD 470 OHM 5%
+K
+F https://www.bourns.com/pdfs/CR0402.pdf
+$ENDCMP
+#
+$CMP CR0402AFX-1001GLF
+D Thick Film Resistors - SMD ResA 0402 1k 1% 63mW TC100 AEC-Q200
+K
+F https://www.mouser.ca/datasheet/2/54/cr_a-1858337.pdf
+$ENDCMP
+#
+$CMP CR0402-FX-1003GLF
+D CR0402 CHIP RESISTOR
+K
+F https://www.bourns.com/pdfs/CR0402.pdf
+$ENDCMP
+#
+$CMP CR0402-FX-2202GLF
+D Thick Film Resistors - SMD 22K OHM 1%
+K
+F https://componentsearchengine.com/Datasheets/1/CR0402-FX-2202GLF.pdf
+$ENDCMP
+#
+$CMP CR0402-FX-1000GLF
+D SMD 0402 thick film resistor 100R 1% Bourns CR0402 Series Thick Film Resistor 0402 Case 100 +/-1% 0.0625W +/-100ppm/C
+K
+F https://www.bourns.com/pdfs/CR0402.pdf
+$ENDCMP
+#
+$CMP LM74610QDGKRQ1
+D Zero Iq Reverse Polarity Protection Smart Diode Controller
+K
+F http://www.ti.com/lit/gpn/lm74610-q1
+$ENDCMP
+#
 #End Doc Library

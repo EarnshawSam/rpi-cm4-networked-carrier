@@ -12,4 +12,8 @@
   (lib (name "ERM8-030-01-X-D-EM2-SL-XX")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/ERM8-030-01-L-D-EM2-TR/ERM8-030-01-X-D-EM2-SL-XX.kicad_sym")(options "")(descr ""))
   (lib (name "ERF8-040-01-X-D-EM2-TR")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/ERF8-040-01-L-D-EM2-TR/ERF8-040-01-X-D-EM2-TR.kicad_sym")(options "")(descr ""))
   (lib (name "ERM8-040-01-X-D-EM2-L-XX")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/ERM8-040-01-L-D-EM2-L-TR/ERM8-040-01-X-D-EM2-L-XX.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA25W")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/ESDA25W/ESDA25W.kicad_sym")(options "")(descr ""))
+  (lib (name "08055C105JAT2A")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/08055C105JAT2A/08055C105JAT2A.kicad_sym")(options "")(descr ""))
+  (lib (name "STL6P3LLH6")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/STL6P3LLH6/STL6P3LLH6.kicad_sym")(options "")(descr ""))
+  (lib (name "STL11N3LLH6")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/STL11N3LLH6/STL11N3LLH6.kicad_sym")(options "")(descr ""))
 )

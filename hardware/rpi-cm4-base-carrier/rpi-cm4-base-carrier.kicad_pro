@@ -632,12 +632,12 @@
       "HDMI"
     ],
     [
-      "fc4c71a5-1008-4ac4-98db-57c838c57d91",
-      "CM4 GPIO"
-    ],
-    [
       "caa71f4c-454d-4ac9-b287-456eafb34991",
       "CM4 High Speed"
+    ],
+    [
+      "fc4c71a5-1008-4ac4-98db-57c838c57d91",
+      "CM4 GPIO"
     ],
     [
       "f59b312f-519e-4202-b8b6-d9dde16427a9",
@@ -646,6 +646,10 @@
     [
       "26b25ff9-f711-41bc-bcf8-c3ce0c6a0e37",
       "SDCard"
+    ],
+    [
+      "741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd",
+      "USBC_PWR.Sheet1"
     ],
     [
       "608ebeb8-e53f-414f-96bd-b82978f8d213",
@@ -658,6 +662,14 @@
     [
       "7444e048-4ed9-432f-b4ba-4c016f1c7845",
       "Board_Edge_Connector"
+    ],
+    [
+      "3eb18116-a510-44ff-809d-19b391c7d385",
+      "USBC_PWR.Sheet"
+    ],
+    [
+      "93ba1a48-bd63-468c-a3b4-483edb456fef",
+      "Power_Input"
     ]
   ],
   "text_variables": {}
