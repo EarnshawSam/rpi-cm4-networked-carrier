@@ -670,6 +670,10 @@
     [
       "93ba1a48-bd63-468c-a3b4-483edb456fef",
       "Power_Input"
+    ],
+    [
+      "00e84fbb-dda2-4689-a88f-629944c1a860",
+      "5V_Reg"
     ]
   ],
   "text_variables": {}

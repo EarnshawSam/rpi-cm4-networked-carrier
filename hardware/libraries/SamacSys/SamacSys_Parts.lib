@@ -431,4 +431,161 @@ P 5 0 1 6 200 100 1700 100 1700 -400 200 -400 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model CR0402-FX-5101GLF
+#/13350500/45339/2.50/2/2/Resistor
+DEF CR0402-FX-5101GLF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CR0402-FX-5101GLF" 550 150 50 H V L CNN
+F2 "RESC1005X40N" 550 50 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/CR0402.pdf" 550 -50 50 H I L CNN
+F4 "Bourns Chip Resistors CR0402 series 5101" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "652-CR0402FX-5101GLF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CR0402-FX-5101GLF?qs=ePR1ZvdkOKImkuXR%2F%2FtvtA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CR0402-FX-5101GLF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PJ-102BH
+#/909044/45339/2.50/3/4/Connector
+DEF PJ-102BH J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PJ-102BH" 650 200 50 H V L CNN
+F2 "PJ-102AH" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PJ-102BH.pdf" 650 0 50 H I L CNN
+F4 "DC Power Connectors Power Jacks" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "490-PJ-102BH" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-102BH?qs=WyjlAZoYn51LQvDYqCqBtA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PJ-102BH" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 -100 200 L 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1190297
+#/15169004/45339/2.50/4/2/Connector
+DEF 1190297 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "1190297" 850 200 50 H V L CNN
+F2 "1190297" 850 100 50 H I L CNN
+F3 "https://g.componentsearchengine.com/Datasheets/0/15169004.pdf" 850 0 50 H I L CNN
+F4 "PCB terminal block, nominal current: 24 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: LPT 2,5/, pitch: 5 mm, connection method: Lever Push-in connection, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard" 850 -100 50 H I L CNN "Description"
+F5 "23.58" 850 -200 50 H I L CNN "Height"
+F6 "651-1190297" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1190297?qs=QNEnbhJQKvaBinyAO%252BdsFA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1190297" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1.1 1 0 0 200 R 50 50 0 0 P
+X 1.2 2 0 -100 200 R 50 50 0 0 P
+X 2.1 3 1000 0 200 L 50 50 0 0 P
+X 2.2 4 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LMR51450FNDRRR
+#/17575718/45339/2.50/13/3/Integrated Circuit
+DEF LMR51450FNDRRR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LMR51450FNDRRR" 1050 200 50 H V L CNN
+F2 "SON50P300X300X80-13N-D" 1050 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/lmr51450.pdf?ts=1681907573404&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR51450%252Fpart-details%252FLMR51450FNDRRR" 1050 0 50 H I L CNN
+F4 "Switching Voltage Regulators 36-V, 5-A synchronous buck converter" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "595-LMR51450FNDRRR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR51450FNDRRR?qs=rQFj71Wb1eVWWBj0Ni4OAA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LMR51450FNDRRR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SW_1 1 0 0 200 R 50 50 0 0 P
+X SW_2 2 0 -100 200 R 50 50 0 0 P
+X SW_3 3 0 -200 200 R 50 50 0 0 P
+X BOOT 4 0 -300 200 R 50 50 0 0 P
+X PG 5 0 -400 200 R 50 50 0 0 P
+X RT 6 0 -500 200 R 50 50 0 0 P
+X PGND/DAP 13 600 -1300 200 U 50 50 0 0 P
+X VIN_3 12 1200 0 200 L 50 50 0 0 P
+X VIN_2 11 1200 -100 200 L 50 50 0 0 P
+X VIN_1 10 1200 -200 200 L 50 50 0 0 P
+X EN 9 1200 -300 200 L 50 50 0 0 P
+X AGND 8 1200 -400 200 L 50 50 0 0 P
+X FB 7 1200 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -1100 200 -1100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CR0402-FX-1912GLF
+#/2264184/45339/2.50/2/5/Resistor
+DEF CR0402-FX-1912GLF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CR0402-FX-1912GLF" 550 150 50 H V L CNN
+F2 "RESC1005X40N" 550 50 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/CR0402.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 19.1KOHM 1/16WATT 1%" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "652-CR0402-FX1912GLF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CR0402-FX-1912GLF/?qs=JflQ4L8so%2Fu%252BVcT05JoqpQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CR0402-FX-1912GLF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CR0402-FX-1332GLF
+#/1100096/45339/2.50/2/5/Resistor
+DEF CR0402-FX-1332GLF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CR0402-FX-1332GLF" 550 150 50 H V L CNN
+F2 "RESC1005X40N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CR0402-FX-1332GLF.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 13.3KOHM 1/16WATT 1%" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "652-CR0402-FX1332GLF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0402-FX1332GLF" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CR0402-FX-1332GLF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IHLP2525EZER2R2M01
+#/382474/45339/2.50/2/3/Inductor
+DEF IHLP2525EZER2R2M01 L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "IHLP2525EZER2R2M01" 650 150 50 H V L CNN
+F2 "INDPM6965X500N" 650 50 50 H I L CNN
+F3 "https://www.vishay.com/docs/34177/ihlp-2525ez-01.pdf" 650 -50 50 H I L CNN
+F4 "VISHAY - IHLP2525EZER2R2M01 - INDUCTOR, 2.2UH, 10A, 20%, SMD" 650 -150 50 H I L CNN "Description"
+F5 "5" 650 -250 50 H I L CNN "Height"
+F6 "70-IHLP2525EZER2R2M0" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525EZER2R2M01?qs=gMuw6kkpPFhlToRwq8I8qw%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "IHLP2525EZER2R2M01" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
 #End Library
