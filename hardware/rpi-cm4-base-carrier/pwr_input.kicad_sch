@@ -2006,6 +2006,11 @@
     (uuid 298cc192-1bb7-4c57-a754-4dac30b0b757)
   )
 
+  (label "AUX_20V" (at 201.93 41.91 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 081eaaf2-c9c4-40b4-accd-caa17e67e222)
+  )
+
   (global_label "+20V" (shape input) (at 261.62 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2889e11b-970c-4e59-9268-e2cbcf81cd47)
