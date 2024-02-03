@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -581,11 +581,11 @@
       "/CM4 High Speed/USB2-HUB/HD2_N": "USB 90R Diff",
       "/CM4 High Speed/USB2-HUB/HD2_P": "USB 90R Diff",
       "/CM4 High Speed/USB2-HUB/USBD_N": "USB 90R Diff",
+      "/CM4 High Speed/USB2-HUB/USBD_P": "USB 90R Diff",
       "/CM4 High Speed/USB2-HUB/USBH_N": "USB 90R Diff",
       "/CM4 High Speed/USB2-HUB/USBH_P": "USB 90R Diff",
       "/CM4 High Speed/USB2_N": "USB 90R Diff",
-      "/CM4 High Speed/USB2_P": "USB 90R Diff",
-      "GND": "USB 90R Diff"
+      "/CM4 High Speed/USB2_P": "USB 90R Diff"
     },
     "netclass_patterns": []
   },
@@ -690,6 +690,10 @@
     [
       "00e84fbb-dda2-4689-a88f-629944c1a860",
       "5V_Reg"
+    ],
+    [
+      "401a7b23-34b9-48d8-be17-7a989e62fb7e",
+      "Fan_Ctrl"
     ]
   ],
   "text_variables": {}
