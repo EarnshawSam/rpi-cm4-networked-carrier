@@ -1491,7 +1491,7 @@
           (reference "R2") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1519,7 +1519,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -1560,7 +1560,7 @@
           (reference "D1") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "D1") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1588,7 +1588,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -1636,7 +1636,7 @@
   (symbol (lib_id "19-337C_RSBHGHC-A88_4T:19-337C_RSBHGHC-A88_4T") (at 118.11 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26b800d6-c0aa-471d-bcc8-d6cf416c9309)
-    (property "Reference" "D4" (at 105.41 46.0471 90)
+    (property "Reference" "D12" (at 105.41 46.0471 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "19-337C_RSBHGHC-A88_4T" (at 105.41 48.5871 90)
@@ -1669,7 +1669,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "D4") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1716,7 +1716,7 @@
           (reference "C4") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "C21") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1879,7 +1879,7 @@
           (reference "D2") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "D2") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1907,7 +1907,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1916,7 +1916,7 @@
   (symbol (lib_id "19-337C_RSBHGHC-A88_4T:19-337C_RSBHGHC-A88_4T") (at 85.09 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97e6d4d8-d8a6-4355-ab9e-8d2327fc5ab6)
-    (property "Reference" "D3" (at 72.39 46.0471 90)
+    (property "Reference" "D11" (at 72.39 46.0471 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "19-337C_RSBHGHC-A88_4T" (at 72.39 48.5871 90)
@@ -1949,7 +1949,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "D3") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1958,7 +1958,7 @@
   (symbol (lib_id "19-337C_RSBHGHC-A88_4T:19-337C_RSBHGHC-A88_4T") (at 151.13 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98514125-4e27-480a-ac7e-92301ffa6f4c)
-    (property "Reference" "D5" (at 138.43 46.0471 90)
+    (property "Reference" "D13" (at 138.43 46.0471 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "19-337C_RSBHGHC-A88_4T" (at 138.43 48.5871 90)
@@ -1991,7 +1991,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "D5") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -2000,7 +2000,7 @@
   (symbol (lib_id "SamacSys_Parts:MCS04020C4701FE000") (at 228.6 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bd21b2b-e8a0-44a3-af91-4849424dfda3)
-    (property "Reference" "R21" (at 231.14 26.67 90)
+    (property "Reference" "R22" (at 231.14 26.67 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4K7" (at 231.14 29.21 90)
@@ -2032,7 +2032,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2041,7 +2041,7 @@
   (symbol (lib_id "SamacSys_Parts:KTD2052BEVAA-TR") (at 229.87 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0ded860-10fa-4782-89f0-9c8fc9feb56d)
-    (property "Reference" "IC1" (at 245.11 31.75 0)
+    (property "Reference" "U8" (at 245.11 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTD2052BEVAA-TR" (at 245.11 34.29 0)
@@ -2080,7 +2080,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "IC1") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -2118,7 +2118,7 @@
           (reference "R6") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2127,7 +2127,7 @@
   (symbol (lib_id "SamacSys_Parts:MCS04020C4701FE000") (at 219.71 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf1079a0-c3fa-4032-bb1f-604dd55e9aac)
-    (property "Reference" "R20" (at 222.25 26.67 90)
+    (property "Reference" "R21" (at 222.25 26.67 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4K7" (at 222.25 29.21 90)
@@ -2159,7 +2159,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -2168,7 +2168,7 @@
   (symbol (lib_id "19-337C_RSBHGHC-A88_4T:19-337C_RSBHGHC-A88_4T") (at 184.15 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4132033-0359-47c0-920d-d1f8b2058ee0)
-    (property "Reference" "D6" (at 171.45 46.0471 90)
+    (property "Reference" "D14" (at 171.45 46.0471 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "19-337C_RSBHGHC-A88_4T" (at 171.45 48.5871 90)
@@ -2201,7 +2201,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "D6") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -2244,7 +2244,7 @@
           (reference "U2") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/91188afb-aa0e-4641-b6d1-5b7addeddc93"
-          (reference "U9") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )

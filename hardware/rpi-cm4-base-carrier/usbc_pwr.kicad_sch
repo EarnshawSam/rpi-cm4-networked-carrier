@@ -1712,10 +1712,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1743,10 +1743,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1790,7 +1790,7 @@
           (reference "C35") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "C30") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1799,7 +1799,7 @@
   (symbol (lib_id "ESDA25W:ESDA25W") (at 78.74 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cff9cd6-6761-4185-9841-e3a62b55d541)
-    (property "Reference" "D18" (at 82.55 46.99 90)
+    (property "Reference" "D17" (at 82.55 46.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESDA25W" (at 82.55 49.53 90)
@@ -1832,10 +1832,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "D18") (unit 1)
+          (reference "D17") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "D14") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1844,7 +1844,7 @@
   (symbol (lib_id "ESDA25W:ESDA25W") (at 43.18 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d7509eb-5c24-48ea-93b3-2820b4a4e369)
-    (property "Reference" "D17" (at 46.99 139.7 90)
+    (property "Reference" "D16" (at 46.99 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESDA25W" (at 46.99 142.24 90)
@@ -1877,10 +1877,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "D17") (unit 1)
+          (reference "D16") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "D13") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1924,10 +1924,10 @@
           (reference "R9") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R27") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R24") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1960,10 +1960,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2007,7 +2007,7 @@
           (reference "C37") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "C32") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2063,7 +2063,7 @@
   (symbol (lib_id "ESDA25W:ESDA25W") (at 24.13 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ac9d13d-b0f9-4733-b0df-34097e180f3e)
-    (property "Reference" "D16" (at 27.94 139.7 90)
+    (property "Reference" "D15" (at 27.94 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESDA25W" (at 27.94 142.24 90)
@@ -2096,10 +2096,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "D16") (unit 1)
+          (reference "D15") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "D12") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2143,7 +2143,7 @@
           (reference "C34") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "C29") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2152,7 +2152,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402-FX-2202GLF") (at 119.38 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44a006ca-e49d-49f6-94b5-a8d00e55f8a9)
-    (property "Reference" "R31" (at 121.92 60.96 90)
+    (property "Reference" "R27" (at 121.92 60.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22K" (at 121.92 63.5 90)
@@ -2184,10 +2184,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R31") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R35") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2215,10 +2215,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2227,7 +2227,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402-FX-1003GLF") (at 119.38 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b31d2dd-ec10-4fc0-82ff-3d66f5d31e1a)
-    (property "Reference" "R30" (at 121.92 38.1 90)
+    (property "Reference" "R26" (at 121.92 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K" (at 121.92 40.64 90)
@@ -2259,10 +2259,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R30") (unit 1)
+          (reference "R26") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R34") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2312,7 +2312,7 @@
           (reference "C36") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "C31") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2345,10 +2345,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2357,7 +2357,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402AFX-1001GLF") (at 100.33 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 647814fc-f340-479c-beab-24414eb3f3ec)
-    (property "Reference" "R29" (at 102.87 60.96 90)
+    (property "Reference" "R25" (at 102.87 60.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 102.87 63.5 90)
@@ -2389,10 +2389,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R29") (unit 1)
+          (reference "R25") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R26") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2420,10 +2420,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2432,7 +2432,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402-JW-471GLF") (at 100.33 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7203fb4c-80e9-4623-8a50-032b27ace090)
-    (property "Reference" "R28" (at 102.87 38.1 90)
+    (property "Reference" "R24" (at 102.87 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 102.87 40.64 90)
@@ -2464,10 +2464,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R28") (unit 1)
+          (reference "R24") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R25") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2495,10 +2495,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2568,10 +2568,10 @@
           (reference "J3") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "J12") (unit 1)
+          (reference "J11") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2621,7 +2621,7 @@
           (reference "C38") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "C41") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2654,10 +2654,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2666,7 +2666,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402AFX-1001GLF") (at 199.39 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aaf3978c-5a8c-44bf-8694-0946c65e96ad)
-    (property "Reference" "R33" (at 201.93 38.1 90)
+    (property "Reference" "R29" (at 201.93 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 201.93 40.64 90)
@@ -2698,10 +2698,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R33") (unit 1)
+          (reference "R29") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R37") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2729,10 +2729,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2776,7 +2776,7 @@
           (reference "C33") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "C28") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2804,10 +2804,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -2816,7 +2816,7 @@
   (symbol (lib_id "Interface_USB:STUSB4500QTR") (at 90.17 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7aa6c84-d7dc-41ef-9e22-6c2fd380133a)
-    (property "Reference" "U7" (at 92.3641 148.59 0)
+    (property "Reference" "U10" (at 92.3641 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STUSB4500QTR" (at 92.3641 151.13 0)
@@ -2856,7 +2856,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "U7") (unit 1)
+          (reference "U10") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
           (reference "U3") (unit 1)
@@ -2887,10 +2887,10 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2899,7 +2899,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402-FX-1000GLF") (at 168.91 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8920082-b383-4317-a6de-d92cb967923a)
-    (property "Reference" "R32" (at 177.8 44.45 0)
+    (property "Reference" "R28" (at 177.8 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 177.8 46.99 0)
@@ -2931,10 +2931,10 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/3eb18116-a510-44ff-809d-19b391c7d385"
-          (reference "R32") (unit 1)
+          (reference "R28") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/741dfa4b-0ea8-42dc-8d8f-dcedf81d33fd"
-          (reference "R36") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )

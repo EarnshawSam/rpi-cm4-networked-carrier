@@ -349,7 +349,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 175.26 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11967844-cd2e-49a5-8663-25cae82dd26f)
-    (property "Reference" "H3" (at 177.8 30.48 0)
+    (property "Reference" "H2" (at 177.8 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 177.8 33.02 0)
@@ -365,7 +365,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "H3") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -374,7 +374,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 175.26 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b1e65c8-ee7d-473b-bc6f-64ebcc09e59a)
-    (property "Reference" "H2" (at 177.8 17.78 0)
+    (property "Reference" "H1" (at 177.8 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 177.8 20.32 0)
@@ -390,7 +390,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "H2") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -418,7 +418,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -470,7 +470,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -546,7 +546,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -574,7 +574,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -583,7 +583,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 200.66 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid febd77c9-8347-4e8b-851d-e916444afe21)
-    (property "Reference" "H1" (at 203.2 17.78 0)
+    (property "Reference" "H3" (at 203.2 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 203.2 20.32 0)
@@ -599,7 +599,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
-          (reference "H1") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )

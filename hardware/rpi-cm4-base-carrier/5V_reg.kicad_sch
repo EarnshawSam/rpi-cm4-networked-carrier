@@ -253,7 +253,7 @@
       )
     )
     (symbol "SamacSys_Parts:LMR51450FNDRRR" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at 26.67 7.62 0)
+      (property "Reference" "U" (at 26.67 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Value" "LMR51450FNDRRR" (at 26.67 5.08 0)
@@ -665,7 +665,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -699,7 +699,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -733,7 +733,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -825,7 +825,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -930,7 +930,7 @@
           (reference "R34") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "R42") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -964,7 +964,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1069,7 +1069,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402-FX-1332GLF") (at 114.3 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 945a6946-63ae-4eb9-93bb-1e3a95cf4111)
-    (property "Reference" "R43" (at 116.84 76.2 90)
+    (property "Reference" "R38" (at 116.84 76.2 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13K3" (at 116.84 78.74 90)
@@ -1101,7 +1101,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "R43") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -1190,7 +1190,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1199,7 +1199,7 @@
   (symbol (lib_id "SamacSys_Parts:LMR51450FNDRRR") (at 109.22 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e309455a-baba-4a5f-b758-41c8f4c0acbb)
-    (property "Reference" "IC5" (at 93.98 38.1 0)
+    (property "Reference" "U14" (at 93.98 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMR51450FNDRRR" (at 93.98 40.64 0)
@@ -1242,7 +1242,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "IC5") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -1251,7 +1251,7 @@
   (symbol (lib_id "SamacSys_Parts:CR0402-FX-1912GLF") (at 160.02 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e970d761-45ff-40b8-922a-5143cf9a1e48)
-    (property "Reference" "R3" (at 162.56 74.93 90)
+    (property "Reference" "R41" (at 162.56 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "19K1" (at 162.56 77.47 90)
@@ -1283,7 +1283,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "R3") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -1330,7 +1330,7 @@
           (reference "R34") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/93ba1a48-bd63-468c-a3b4-483edb456fef/00e84fbb-dda2-4689-a88f-629944c1a860"
-          (reference "R1") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )

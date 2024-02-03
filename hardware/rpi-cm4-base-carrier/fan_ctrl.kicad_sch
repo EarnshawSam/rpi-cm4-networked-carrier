@@ -150,7 +150,7 @@
       )
     )
     (symbol "SamacSys_Parts:EMC2305-1-AP-TR" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at 31.75 17.78 0)
+      (property "Reference" "U" (at 31.75 17.78 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Value" "EMC2305-1-AP-TR" (at 31.75 15.24 0)
@@ -256,7 +256,7 @@
       )
     )
     (symbol "SamacSys_Parts:LM2940S-12_NOPB" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at 24.13 7.62 0)
+      (property "Reference" "U" (at 24.13 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Value" "LM2940S-12_NOPB" (at 24.13 5.08 0)
@@ -883,7 +883,7 @@
   (symbol (lib_id "SamacSys_Parts:EMC2305-1-AP-TR") (at 119.38 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b076983-7d46-4289-a35d-df454162ee0b)
-    (property "Reference" "IC6" (at 161.29 84.5119 0)
+    (property "Reference" "U16" (at 161.29 84.5119 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EMC2305-1-AP-TR" (at 161.29 87.0519 0)
@@ -930,7 +930,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "IC6") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -961,7 +961,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -970,7 +970,7 @@
   (symbol (lib_id "SamacSys_Parts:LM2940S-12_NOPB") (at 54.61 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 205fbdae-7102-4ab0-9566-0cf1beece3ef)
-    (property "Reference" "IC7" (at 68.58 38.1 0)
+    (property "Reference" "U15" (at 68.58 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM2940S-12_NOPB" (at 68.58 40.64 0)
@@ -1004,7 +1004,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "IC7") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -1146,7 +1146,7 @@
           (reference "R17") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "R45") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1182,7 +1182,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -1213,7 +1213,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -1244,7 +1244,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1275,7 +1275,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -1322,7 +1322,7 @@
           (reference "R17") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "R7") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1426,7 +1426,7 @@
           (reference "R17") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "R8") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1521,7 +1521,7 @@
           (reference "R17") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "R44") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1573,7 +1573,7 @@
           (reference "R17") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "R46") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1609,7 +1609,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1618,7 +1618,7 @@
   (symbol (lib_id "SamacSys_Parts:47053-1000") (at 231.14 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb0cbaee-63d3-4ff8-bedc-ea2fe0ab5f52)
-    (property "Reference" "J7" (at 247.65 50.8 0)
+    (property "Reference" "J14" (at 247.65 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47053-1000" (at 247.65 53.34 0)
@@ -1652,7 +1652,7 @@
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "J7") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -1726,7 +1726,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1757,7 +1757,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57/fc4c71a5-1008-4ac4-98db-57c838c57d91/401a7b23-34b9-48d8-be17-7a989e62fb7e"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
