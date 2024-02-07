@@ -5,12 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "Raspberry Pi Compute Module 4 Base Carrier")
-    (date "2020-10-31")
+    (title "Raspberry Pi Compute Module 4 Control Node")
+    (date "2024-02-04")
     (rev "v01")
     (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
     (comment 3 "License: CC BY-SA 4.0")
-    (comment 4 "Author: Shawn Hymel")
+    (comment 4 "Author: Sam Earnshaw")
   )
 
   (lib_symbols
@@ -336,6 +336,12 @@
     (property "Datasheet" "~" (at 200.66 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part Number" "NF" (at 200.66 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 200.66 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0ad9c52a-faea-4ae1-b3fb-2ee2ae82a33f))
     (instances
       (project "rpi-cm4-base-carrier"
@@ -361,6 +367,12 @@
     (property "Datasheet" "~" (at 175.26 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part Number" "NF" (at 175.26 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 175.26 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 183f9cdf-2bbe-4a18-a81a-71e7a5590538))
     (instances
       (project "rpi-cm4-base-carrier"
@@ -384,6 +396,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.26 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "NF" (at 175.26 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 175.26 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0181962c-d8f3-4878-a475-b8a04542dad2))
@@ -439,6 +457,12 @@
     (property "Datasheet" "~" (at 262.89 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part Number" "NF" (at 262.89 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 262.89 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
@@ -491,6 +515,12 @@
     (property "Datasheet" "~" (at 262.89 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part Number" "NF" (at 262.89 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 262.89 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "rpi-cm4-base-carrier"
         (path "/92c58705-ecb0-498b-b561-44a3f0daad57"
@@ -513,6 +543,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 262.89 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "NF" (at 262.89 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 262.89 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -593,6 +629,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 200.66 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "NF" (at 200.66 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "NF" (at 200.66 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 12332c1b-1c21-42fa-a55b-ba0de2935289))

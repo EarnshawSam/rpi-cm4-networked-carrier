@@ -16,4 +16,5 @@
   (lib (name "08055C105JAT2A")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/08055C105JAT2A/08055C105JAT2A.kicad_sym")(options "")(descr ""))
   (lib (name "STL6P3LLH6")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/STL6P3LLH6/STL6P3LLH6.kicad_sym")(options "")(descr ""))
   (lib (name "STL11N3LLH6")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/STL11N3LLH6/STL11N3LLH6.kicad_sym")(options "")(descr ""))
+  (lib (name "10029449_111RLF")(type "KiCad")(uri "C:/Users/samea/Documents/rpi-cm4/rpi-cm4-networked-carrier dev/rpi-cm4-networked-carrier/hardware/libraries/10029449_111RLF/10029449_111RLF.kicad_sym")(options "")(descr ""))
 )

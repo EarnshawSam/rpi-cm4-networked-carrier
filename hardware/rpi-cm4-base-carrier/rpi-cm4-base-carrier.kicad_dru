@@ -1,0 +1,5 @@
+(version 1)
+(rule "dp clearance to zone"
+	(constraint clearance (min 0.8mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone' ")
+)

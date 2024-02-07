@@ -5,12 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "Raspberry Pi Compute Module 4 Base Carrier")
-    (date "2020-10-31")
+    (title "Raspberry Pi Compute Module 4 Control Node")
+    (date "2024-02-04")
     (rev "v01")
-    (comment 2 "creativecommons.org/licenses/by-sa/4.0")
+    (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
     (comment 3 "License: CC BY-SA 4.0")
-    (comment 4 "Author: Shawn Hymel")
+    (comment 4 "Author: Sam Earnshaw")
   )
 
   (lib_symbols
@@ -2180,6 +2180,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digi-Key_PN (Alt)" "2x H124602CT-ND" (at 90.17 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C597931" (at 90.17 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C597931" (at 90.17 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "100" (uuid 9d3f7c55-e2c4-4dd0-b3b9-74280b18c5f2))

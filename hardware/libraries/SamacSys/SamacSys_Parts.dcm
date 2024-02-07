@@ -144,4 +144,34 @@ K
 F https://www.vishay.com/docs/34177/ihlp-2525ez-01.pdf
 $ENDCMP
 #
+$CMP DM3CS-SF
+D Memory Card Connectors 8P R/A SMT MICRO SD HINGE PUSH-PULL
+K
+F https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3CS-SF_C202111.pdf
+$ENDCMP
+#
+$CMP EMC2305-1-AP-TR
+D MICROCHIP - EMC2305-1-AP-TR - Motor Driver/Controller, PWM, 3V to 3.6V, 5 Outputs, QFN-16
+K
+F https://componentsearchengine.com/Datasheets/1/EMC2305-1-AP-TR.pdf
+$ENDCMP
+#
+$CMP 47053-1000
+D MOLEX - 47053-1000 - HEADER, 4POS, 1ROW, 2.54MM
+K
+F http://www.molex.com/pdm_docs/sd/470531000_sd.pdf
+$ENDCMP
+#
+$CMP LM2940S-12_NOPB
+D 1A Low Dropout Regulator  LM2940S-12
+K
+F http://www.ti.com/lit/ds/symlink/lm2940-n.pdf
+$ENDCMP
+#
+$CMP EEE-FH1E101XL
+D Aluminium Electroyltic Capacitor, Radial
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ast-ind-166561.pdf
+$ENDCMP
+#
 #End Doc Library
